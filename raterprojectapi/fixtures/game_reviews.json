@@ -1,0 +1,22 @@
+[
+    {
+    "model": "raterprojectapi.gamereview",
+    "pk": 1,
+    "fields": {
+      "rating": 10,
+      "content": "If ever there were a perfect video game, the third installment in the Witcher franchise is it. Featuring a deep and interesting cast of characters, a compelling plot line, and a massive yet intricately detailed world, it's a can't miss.",
+      "game": 1,
+      "player": 1
+    }
+  },
+    {
+    "model": "raterprojectapi.gamereview",
+    "pk": 2,
+    "fields": {
+      "rating": 8,
+      "content": "Catan is a classic board game that you'll want to play against your friends time and time again.",
+      "game": 2,
+      "player": 2
+    }
+  }
+]

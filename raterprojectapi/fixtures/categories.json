@@ -1,0 +1,16 @@
+[
+    {
+    "model": "raterprojectapi.category",
+    "pk": 1,
+    "fields": {
+      "type": "Strategy"
+    }
+  },
+    {
+    "model": "raterprojectapi.category",
+    "pk": 2,
+    "fields": {
+      "type": "RPG"
+    }
+  }
+]

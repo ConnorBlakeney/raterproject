@@ -1,3 +1,11 @@
 {
-    "python.pythonPath": "/Users/ConnorBlakeney2/.pyenv/versions/3.8.1/bin/python"
+    "python.pythonPath": "/Users/ConnorBlakeney2/.pyenv/versions/3.8.1/bin/python",
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Rater Database",
+            "database": "${workspaceFolder:raterproject}/db.sqlite3"
+        }
+    ]
 }

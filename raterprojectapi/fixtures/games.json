@@ -1,0 +1,31 @@
+[
+    {
+    "model": "raterprojectapi.game",
+    "pk": 1,
+    "fields": {
+      "title": "Witcher 3",
+      "description": "A sprawling, open-world RPG based on the tales of Geralt of Rivia.",
+      "year_released": 2015,
+      "num_of_players": 1,
+      "play_time": 3000,
+      "player_age": 15,
+      "designer": "CD Projekt Red"
+    }
+  },
+    {
+    "model": "raterprojectapi.game",
+    "pk": 2,
+    "fields": {
+      "title": "Settlers of Catan",
+      "description": "A classic competitive board game, outbuild your friends!",
+      "year_released": 1995,
+      "num_of_players": 4,
+      "play_time": 120,
+      "player_age": 15,
+      "designer": "Klaus Teuber"
+    }
+  }
+]
+
+
+    

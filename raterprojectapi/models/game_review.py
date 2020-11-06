@@ -6,4 +6,4 @@ class GameReview(models.Model):
     rating = models.IntegerField() 
     content = models.CharField(max_length=1000)
     game = models.ForeignKey('raterprojectapi.Game', on_delete=models.CASCADE)
-    category = models.ForeignKey('raterprojectapi.Category', on_delete=models.CASCADE)
+    player = models.ForeignKey('raterprojectapi.Player', on_delete=models.CASCADE)

@@ -1,4 +1,5 @@
 import json
+from raterprojectapi.models.player import Player
 from django.http import HttpResponse
 from django.contrib.auth import login, authenticate
 from django.contrib.auth.models import User
@@ -55,13 +56,13 @@ def register_user(request):
     )
 
     # Now save the extra info in the levelupapi_gamer table
-    gamer = Gamer.objects.create(
+    player = Player.objects.create(
         bio=req_body['bio'],
         user=new_user
     )
 
     # Commit the user to the database by saving it
-    gamer.save()
+    player.save()
 
     # Use the REST Framework's token generator on the new user account
     token = Token.objects.create(user=new_user)
